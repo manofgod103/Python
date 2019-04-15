@@ -1,0 +1,7 @@
+import urllib.request
+response = urllib.request.urlopen("http://www.baidu.com")
+data = response.read()
+print(data)
+
+
+
